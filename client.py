@@ -1,6 +1,7 @@
 import socket
 
-server_ip = "127.0.0.1"  # Use the server's IP address
+# server_ip = "127.0.0.1"  # Use the server's IP address
+server_ip = 'https://simple-python-socket.onrender.com'
 server_port = 12345
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
